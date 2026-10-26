@@ -1,0 +1,12 @@
+ROTEIRO DE TESTES PARA O RELATORIO
+1. Cadastrar livro com titulo, autor e 1 exemplar.
+2. Tentar cadastrar livro com titulo vazio: deve recusar.
+3. Cadastrar leitor e repetir CPF: deve recusar.
+4. Emprestar o livro ao leitor: disponiveis passa de 1 para 0.
+5. Tentar emprestar novamente: deve recusar.
+6. Tentar excluir livro e leitor com emprestimo ativo: deve recusar.
+7. Devolver o livro: disponiveis passa de 0 para 1.
+8. Tentar devolver novamente: deve recusar.
+9. Fechar e abrir o programa: os registros devem persistir.
+10. Pesquisar por titulo, autor, nome e CPF.
+Registre data, entrada, resultado esperado, resultado obtido e capturas de tela.

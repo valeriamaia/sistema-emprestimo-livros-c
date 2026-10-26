@@ -1,0 +1,22 @@
+# Programa compilado
+Biblioteca.exe
+Biblioteca
+*.exe
+*.o
+*.obj
+
+# Dados locais dos leitores e empréstimos
+dados/*
+!dados/.gitkeep
+
+# Capas enviadas pelos usuários
+capas/*
+!capas/.gitkeep
+
+# Executável dos testes
+testes/teste_regras
+testes/teste_regras.exe
+
+# Arquivos temporários
+*.tmp
+*.log

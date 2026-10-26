@@ -1,0 +1,10 @@
+CÓDIGO EM PORTUGUÊS — EXPLICAÇÃO DOS COMANDOS
+
+Os arquivos .c e .h foram comentados em português. Em C, #include, #define, #ifdef, #else e #endif são DIRETIVAS do pré-processador; não se usa # para comentários.
+Comentários de uma linha começam com //; comentários de várias linhas usam /* ... */.
+
+Foram traduzidos os nomes internos de funções e variáveis. Os nomes dos campos HTTP, rotas e arquivos de dados foram mantidos para não alterar o funcionamento dos formulários, links, capas e persistência. As funções padrão da linguagem C e bibliotecas do sistema (malloc, realloc, printf, socket etc.) também mantêm seus nomes oficiais.
+
+O código da interface HTML/CSS permanece idêntico, com exceção da remoção do emoji de livro do título na lateral.
+
+ATENÇÃO: o servidor e as regras são escritos em C, mas a aparência é renderizada por HTML/CSS no navegador, como já ocorria. O servidor é apenas para uso local confiável; não exponha à Internet.

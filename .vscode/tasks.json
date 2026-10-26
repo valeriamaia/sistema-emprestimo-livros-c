@@ -1,0 +1,1 @@
+{"version":"2.0.0","tasks":[{"label":"Compilar biblioteca (Windows)","type":"shell","command":"${workspaceFolder}\\compilar.bat","group":{"kind":"build","isDefault":true},"problemMatcher":[]}]}
